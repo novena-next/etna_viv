@@ -1,0 +1,14 @@
+Source: libetnaviv-headers
+Section: devel
+Priority: optional
+Maintainer: Jookia <contact@jookia.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.3.0
+Homepage: https://github.com/novena-next/etna_viv
+
+Package: libetnaviv-headers
+Architecture: all
+Depends: ${misc:Depends}
+Description: Headers used to build xf86-video-armada
+ This package provides the headers required by xf86_video_armada
+ to build its etnadrm package.
